@@ -1,0 +1,475 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/*
+    Members:
+        GARCIA, CHED NEO H.
+        DIOKNO, CARL DENVER D.
+        TRINIDAD, JAMES ALJANDRO N.
+        MAINOT, JONATHAN L.
+        FERATER, MIKE REYNIEL L.
+*/
+
+@font-face { font-family: open-sans; 
+    src: url('OpenSans-Regular.ttf'); }
+
+div.wrapper {
+    position: fixed;
+    display: grid;
+/*    align-items: center;
+    align-content: center; */
+    z-index: 3;
+    background-image: linear-gradient(crimson,red) ;
+    padding: 2rem;
+    min-width: 100vw;
+    top: 0px;
+    padding-bottom: 0rem;
+    margin-top: -1rem;
+/*    margin-left: -1rem;
+    margin-right: -1rem; */
+    margin: -0.5rem;
+}
+
+header#red {
+    padding: 0;
+}
+
+div#logo { 
+    display: inline;
+    padding-right: 9em;
+}
+
+#bsu-logo {
+    position: absolute;
+    z-index: 1;
+    width: 5rem;
+    margin: -0.6rem;
+    margin-left: 3rem;
+
+
+}
+
+div#school {
+    font-family: sans-serif;
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: .1em;
+    margin-top: -.1em;
+    padding-bottom: 1.1em;
+}
+
+span#spschool {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+span#spschool1 {
+    font-size: 1.5rem;
+}
+
+div.hyperlink {
+    position: absolute;
+    margin-top: 1.5em;
+    margin-left: 10em;
+/*    background-color: white; */
+    font-family: sans-serif;
+    display: inline-flex;
+    color: white;
+}
+/*
+div.hyperlink a:hover {
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+
+    padding: 0.5em;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+div.hyperlink a:link {
+    padding: 0.5em;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+
+}
+
+div.hyperlink a:visited {
+    padding: 0.5em;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+
+}
+
+div.hyperlink a:active {
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+
+    padding: 0.5em;
+    background-color: rgb(255, 255, 255, 0.25);
+}
+
+div#hamburger {
+    margin-left: 40%;
+    position: absolute;
+    display: inline;
+    
+} */
+
+div#likod {
+    height: 13vh;
+}
+
+/* --------------------------------------------------------------------Divider-------------------------------------------------------------------------- */
+
+.dropbtn {
+    padding: 0.5em;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    border-color: rgba(0, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    position: relative;
+    right: 0;
+    margin-top: 0.2rem;
+    display: none;
+    width: max-content;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 1rem 1rem 0;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: rgba(255, 255, 255, 0.5);
+    transition-property: background;
+    transition: 700ms;}
+
+    div.hunderlines {
+        width: 80%;
+        border-radius: 2px;
+        margin-top: 5px;
+        height: 3px;
+        background-color: white;
+    }
+
+/* --------------------------------------------------------------------Divider-------------------------------------------------------------------------- */    
+
+div.bar {
+    /*    border-top: white solid; */
+        margin: 0 -8px;
+        position: relative;
+        background-color: rgba(55, 55, 55, 1);
+        display: flex;
+        height: 6vh;
+        margin-bottom: 5vh;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    div.bar a {
+        color: white;
+        text-decoration: none;
+        height: 6vh;
+    }
+    
+    div.bar a:hover {
+        background-color: crimson;
+    }
+    
+    div.barobject {
+        text-align: center;
+        font-family: sans-serif;
+        color: white;
+        margin: 0.85rem 1rem;
+        padding: 0 0.5rem;
+
+    /*    border-left: white solid; */
+    }
+
+
+/* --------------------------------------------------------------------Divider-------------------------------------------------------------------------- */
+
+div#poffering {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    display: grid;
+    margin: 0 -8px;
+    height: 40vh;
+    overflow: hidden;
+    background-color: black;
+}
+
+div#poffering img {
+    position: absolute;
+    opacity: 50%;
+    margin-top: -30vh;
+    width: 100%;
+/*    filter: grayscale(50%) blur(1px); */
+}
+
+div#poffering h1 {
+    font-size: 3rem;
+    font-style: oblique;
+    align-self: center;
+    color: white;
+    filter: drop-shadow(0 0 5px #000);
+
+}
+
+div#sgor {
+    letter-spacing: 0.5rem;
+    margin: -0.5rem;
+    font-family: sans-serif;
+    margin-bottom: -30vh;
+    margin-top: 13.5vh;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: white;
+}
+
+div#pgor {
+    font-family: sans-serif;
+    justify-self: center;
+    align-self: center;
+    z-index: 2;
+    position: absolute;
+}
+
+div.wrapper123 {
+    top: 0;
+    position: fixed;
+    margin: 0px -8px;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+div.wrapper123 img {
+    opacity: 20%;
+    margin-top: -17vh;
+    z-index: 1;
+    width: 100%;
+    overflow: hidden;
+    filter: grayscale(50%) blur(1px);
+}
+
+/* --------------------------------------------------------------------Welcome-------------------------------------------------------------------------- */
+
+div.students {
+    position: relative;
+    display: grid;
+    margin: 0 -0.5rem;
+    justify-content: center;
+    margin-top: -25vh;
+}
+
+div.layer {
+    display: flex;
+    justify-content: center;
+    margin: 4vw 1vw;
+}
+
+div.card {
+    overflow: hidden;
+    margin: 0 3vw;
+    width: 35vw;
+    height: 50vh;
+    background-color: rgba(190, 190, 190, 0.2);
+    border-radius: 7px;
+    box-shadow: 0 0 5px #000;
+}
+
+div.card-pic {
+
+    display: flex;
+    overflow: hidden;
+    height: 35vh;
+    align-items: center;
+}
+
+img.cardimg {
+    display: block;
+    width: 35vw;
+    background-color: blueviolet;
+    margin-bottom: 0;
+    bottom: 0;
+
+}
+
+div.card-dits {
+    margin: 1vh;
+    font-family: sans-serif;
+    color: #000;
+    display: block;
+    height: 15vh;
+}
+
+div.outsider h1 {
+    padding-left: 3vw;
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size: 1.5rem;
+    color: #EB1C24;
+}
+
+
+/* --------------------------------------------------------------------Footer-------------------------------------------------------------------------- */
+
+div.footer {
+    z-index: 1;
+    background-color: #373737;
+    position: relative;
+    display: flex;
+/*    align-items: center; */
+    min-height: 40vh;
+    color: white;
+    margin: 0 -0.5em;
+/*    margin-bottom: 0; */
+    bottom: 0;
+}
+
+div#d1footer {
+    opacity: 0.9;
+    display: flex;
+    margin-top: 2.5rem;
+}
+
+div#reds {
+    width: max-content;
+    display: flex;
+    margin: 1rem;
+    margin-left: 6rem;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+img#redspartan {
+    height: 30vh;   
+}
+
+ul.ulfooter {
+    list-style-type: none;
+    font-family: sans-serif;
+    line-height: 1.2rem;
+}
+
+div#d1footer a:hover {
+    color: rgb(184, 184, 184);
+}
+
+div#d1footer a {
+    color: whitesmoke;
+    font-weight: 10;
+    font-style: oblique;
+}
+
+div#bsumission {
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    position: absolute;
+    opacity: 75%;
+    color: white;
+    font-family: sans-serif;
+    width: 50vh;
+/*    margin-top: 4rem; */
+    right: 12rem; 
+}
+
+
+div#connections {
+    align-items: center;
+    justify-content: center;
+    margin: 0.3rem;
+    margin-top: 2rem;
+    display: flex;
+}
+
+div#connections img{
+    width: 40px;
+    height: 40px;
+    margin: 1rem;
+    margin-top: 0;
+}
+
+div#connections a:hover img {
+    margin-top: -1.2rem;
+    margin-bottom: -0.5rem;
+    width: 60px;
+    height: 60px;
+}
+
+div#extender {
+    position: relative;
+    z-index: 2;
+    height: 20vh;
+    background-color: #373737;
+    margin: -0.5rem;
+}
+
+a#anchor1, a#anchor2,
+a#anchor3, a#anchor4,
+a#anchor5, a#anchor6,
+a#anchor7, a#anchor8,
+a#anchor9, a#anchor10,
+a#anchor11, a#anchor12,
+a#anchor13, a#anchor14 {
+    position: absolute;
+    transform: translateY(-19vh);
+}
+
+div#btt {
+    opacity: 0%;
+    right: 1vw;
+    bottom: 2vh;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    z-index: 3;
+    rotate: 180deg;
+    background-color: #2f2f2fb1;
+    border-radius: 12px;
+    object-fit: contain;
+    width: 45px;
+    height: 40px;
+    border: whitesmoke solid;
+}
+
+div#btt img {
+    width: 40px;
+}
