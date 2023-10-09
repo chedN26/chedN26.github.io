@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body { 
+  font-family: 'Monoton', cursive;
+  font-size: 8vw;
+}
+
+%bg {
+  padding: 25vmin 0;
+  background-size: cover;
+}
+
+.bg-one {
+  @extend %bg;
+  padding: 25vmin 0;
+  background-size: cover;
+  background-image: url("https://batstate-u.edu.ph/wp-content/uploads/2020/10/homepage-webslider-1.jpg");
+}
+
+.bg-two {
+  @extend %bg;
+  padding: 25vmin 0;
+  background-size: cover;
+  background-image: url("https://batstate-u.edu.ph/wp-content/uploads/2020/10/homepage-webslider-1.jpg");
+}
+
+.bg-three {
+  @extend %bg;
+  padding: 25vmin 0;
+  background-size: cover;
+  background-image: url("https://batstate-u.edu.ph/wp-content/uploads/2020/10/homepage-webslider-1.jpg");
+}
+
+.solid {
+  padding: 25vh 0;
+  opacity: 10%;
+  background: steelblue; 
+  text-align: center;
+  color: white;
+}
+
+p {
+  margin: 0;
+  line-height: 1;
+  
+  small {
+    font-size: .5em;
+    color: rgba(255, 255, 255, 0.7)
+ 
+  }
+}
